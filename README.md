@@ -57,5 +57,12 @@ After downloading the pretrained models, execute:
 python main.py
 ```
 
-The script loads one of the VAE decoder checkpoints, samples 10 latent vectors within the recommended bounds, and prints reconstructed transfer functions to the console. The demo completes in under one minute on a standard desktop CPU once the models are present locally.
+The script loads one of the VAE decoder checkpoints, samples 10 latent vectors within the recommended bounds, and prints reconstructed transfer functions to the console. You should expect output similar to:
+
+```
+TF: (sand + clay*1.59)/7.844
+```
+
+The demo completes in under one minute on a standard desktop CPU once the models are present locally.
+
 
